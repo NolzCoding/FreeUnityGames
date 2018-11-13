@@ -4,7 +4,18 @@
 <style>
 body {margin:0;}
   
-.button {
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+  
+.container .button {
   background:    #52d552;
   background:    -webkit-linear-gradient(#52d552, #3c8f3c);
   background:    linear-gradient(#52d552, #3c8f3c);
@@ -64,6 +75,11 @@ li a:hover:not(.active) {
   <li><a href="#about">About</a></li>
 </ul>
 <p>You found the secret 2!<p/>
+  
+  <div class="container">
+  <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  <button href="https://nolzcoding.github.io/Sevun/" class="button">Sevun</button>
+</div>
   
 <div align="center">
   <a href="https://nolzcoding.github.io/Sevun/" class="button">Sevun</a>
